@@ -4,6 +4,7 @@ import App from './App';
 import { createStore } from 'redux'
 import { Provider } from 'react-redux'
 import manageBand from './reducers/manageBand'
+import { createStore } from 'redux';
 
 const store = createStore(manageBand)
 
